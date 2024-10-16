@@ -1,6 +1,14 @@
 # cmbdev-fe-boilerplate
 
-Quick and fairly opinionated boilerplate for my front end projects.
+Quick and fairly opinionated boilerplate for my front end projects. Creates a static website minified, transpiled, and compressed.
+
+The main libraries this boilerplate comes with:
+- [TailwindCSS](https://tailwindcss.com)
+- [PostCSS](https://postcss.org)
+- [React](https://react.dev)
+- [Autoprefixer](https://github.com/postcss/autoprefixer)
+
+Along with various plugins for modular html components and error checking configurations for Javascript and CSS.
 
 ## Usage
 
@@ -19,7 +27,9 @@ Clean dist:
 npm run clean
 ```
 To run stylelint run: 
-```npm run css:lint```
+```
+npm run css:lint
+```
 To build just the CSS with PostCSS (postcss-import, autoprefixer, cssnano, and tailwind): 
 ```
 npm run css:postcss
