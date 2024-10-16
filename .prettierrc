@@ -1,0 +1,6 @@
+{
+  "tailwindPreserveWhitespace": false,
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
+}
