@@ -59,5 +59,5 @@ To build everything, start the server, and watch the `src` directory for changes
 npm run develop
 ```
 
-There are other watch commands listed in the `package.json`. Testing commands will come soon.
 
+There are other watch commands listed in the `package.json`. Testing commands will come soon.
